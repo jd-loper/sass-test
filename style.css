@@ -1,5 +1,5 @@
 body {
-  font: 100% Helvetica, sans-serif;
+  font: 100% Roboto, sans-serif;
   color: blue;
 }
 
@@ -20,4 +20,14 @@ nav a {
   padding: 6px 12px;
   color: red;
   text-decoration: none;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  background: DarkGray;
+  box-shadow: 0 1px 1px rgba(169, 169, 169, 0.75);
+  color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
 }/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,13 @@
-$font-stack: Helvetica, sans-serif
+$font-stack: Roboto, sans-serif
 $primary-color: blue
 $secondary-color: red
+@mixin theme($theme: DarkGray)
+    display: flex
+    justify-content: center
+    background: $theme
+    box-shadow: 0 1px 1px rgba($theme, .75)
+    color: #fff
+    width: fit-content
 
 body
     font: 100% $font-stack
@@ -23,3 +30,6 @@ nav
         padding: 6px 12px
         color: $secondary-color
         text-decoration: none
+
+p
+    @include theme
